@@ -43,3 +43,18 @@ img {
       transform: translateY(-5px);
     }
   }
+  #nav1 {
+    background: linear-gradient(to right, slateblue, lightblue);
+    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.3);
+    border-color: white;
+  }
+  .btn {
+    background-color: white;
+    color: slateblue;
+    margin: 2px;
+  }
+  .btn:hover {
+    color: white;
+    background-color: slateblue;
+    transform: scale(1.05);
+  }
