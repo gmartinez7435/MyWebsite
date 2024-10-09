@@ -1,8 +1,16 @@
+.container {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
     border-radius: 145px;
     animation: bounce 2s infinite;
     margin-top: 20px;
     align-items: center;
+    max-width: 100%;
+    height: auto;
   }
   h2 {
     font-size: 18px;
@@ -56,5 +64,5 @@ img {
   .btn:hover {
     color: white;
     background-color: slateblue;
-    transform: scale(1.05);
+    transform: scale(1.10);
   }
