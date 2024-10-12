@@ -29,6 +29,9 @@ img {
     text-align: center;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
+  #subhead {
+    padding-top: 35px;
+  }
   a {
     background-color: white;
     font-size: 20px;
@@ -74,4 +77,13 @@ img {
     /* transform: scale(5.50); */
     transform: rotate(360deg);
     transition: transform 1s;
+  }
+  video {
+    border-radius: 6%;
+    box-shadow: 0 0px 1vh white;
+  }
+  video:hover {
+    transform: scale(1.05);
+    transition: 2s;
+    box-shadow: 0 0 100px whitesmoke;
   }
