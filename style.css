@@ -9,6 +9,7 @@
   left: 10;
   margin: 0;
   padding: 0%;
+  text-shadow: 0 0 15px white;
 }
 img {
     border-radius: 145px;
@@ -70,5 +71,7 @@ img {
   .btn:hover {
     color: white;
     background-color: slateblue;
-    transform: scale(1.10);
+    /* transform: scale(5.50); */
+    transform: rotate(360deg);
+    transition: transform 1s;
   }
