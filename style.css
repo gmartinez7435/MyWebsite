@@ -11,14 +11,15 @@
   padding: 0%;
   text-shadow: 0 0 15px white;
 }
-img {
+#propic {
     border-radius: 145px;
     animation: bounce 2s infinite;
     margin-top: 20px;
     align-items: center;
     max-width: 100%;
     height: auto;
-  }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 h2 {
     font-size: 18px;
 }
@@ -37,7 +38,7 @@ body {
 #subhead {
     padding-top: 35px;
 }
-a {
+#conbutton {
     background-color: white;
     font-size: 20px;
     border-radius: 10px;
@@ -50,7 +51,7 @@ a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.5s ease;
 }
-a:hover {
+#conbutton:hover {
     color: white;
     background-color: blue;
     transform: scale(1.05);
@@ -79,13 +80,13 @@ a:hover {
 .btn:hover {
     color: white;
     background-color: slateblue;
-    /* transform: scale(5.50); */
-    transform: rotate(360deg);
+    /*transform: rotate(360deg);*/
+    transform: rotate3d(0,1,1, 360deg) scale(1.50);
     transition: transform 1s;
 }
 video {
     border-radius: 6%;
-    box-shadow: 0 0px 1vh white;
+    box-shadow: 0 4px 8px white;
 }
 video:hover {
     transform: scale(1.05);
