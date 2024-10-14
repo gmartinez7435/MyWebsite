@@ -80,8 +80,8 @@ body {
 .btn:hover {
     color: white;
     background-color: slateblue;
-    /*transform: rotate(360deg);*/
-    transform: rotate3d(0,1,1, 360deg) scale(1.50);
+    transform: rotate(360deg) scale(1.50);
+    /*transform: rotate3d(0,1,1, 360deg) scale(1.50);*/
     transition: transform 1s;
 }
 video {
