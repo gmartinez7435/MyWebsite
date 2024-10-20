@@ -87,14 +87,17 @@ body {
 video {
     border-radius: 6%;
     box-shadow: 0 4px 8px white;
-}
-video:hover {
-    transform: scale(1.05);
-    transition: 2s;
-    box-shadow: 0 0 100px whitesmoke;
+    margin: 5px 0px 5px 0px;
 }
 #cd {
     display: grid;
+
+    border: 1px solid white;
+    background: linear-gradient(to right, slateblue, lightblue);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     place-items: center;
     height: 35%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
